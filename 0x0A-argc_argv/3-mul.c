@@ -2,12 +2,14 @@
 #include <stdlib.h>
 /**
  * main - check code
- * @argc: number of arguments
- * @argv: array that contain arguments
+ * @argc: Number of arguments
+ * @argv: Array that contain arguments
  * Description: multiplies two numbers
- * Return: 0 if the program receives two arguments
- * 	   1 if the programs doesnt receive two arguments
+ * Return: 0 If the program receives two arguments
+ *         1 If the program doesn't receive two arguments
  */
+
+
 int main(int argc, char *argv[])
 {
 	int m1, m2, pr;
@@ -22,5 +24,6 @@ int main(int argc, char *argv[])
 	pr = m1 * m2;
 
 	printf("%d\n", pr);
+
 	return (0);
 }
